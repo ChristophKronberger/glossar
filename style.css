@@ -1,0 +1,197 @@
+html,
+body{
+    height:  auto;
+   
+}
+
+body {
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    
+    
+    
+}
+
+.background {
+   background-image: url(recources/hintergrund.jpg);
+    background-size: cover;
+    margin: 0;
+    opacity: 0.2;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    background-color: white;
+}
+
+
+
+.navigationbar {
+    list-style-type: none;
+    background-color: rgb(60, 112, 60);
+    background-blend-mode: lighten;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.navigationbarelement {
+    float: left;
+    display: block;
+    border: 2px solid black;
+    margin-right: 2px;
+}
+
+#clock {
+    font-weight: bold;
+    font-size: large;
+}
+
+#clockdiv {
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 10pxs;
+    border: solid black 1pt;
+    float: right;
+    
+}
+
+#logodiv {
+    display: block;
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 1em;
+
+    
+    
+}
+#logolink{
+    display: block;
+    width: 240px;
+    height: 100px;
+  
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(recources/Log7.png);
+    background-size: cover;
+
+}
+.daumenlink{
+    height: inherit;
+    width: inherit;
+    display: block;  
+}
+ #likecontainer {
+        position: static;
+        margin-right: 2.2em;
+        margin-left: auto;
+        background-image: url(recources/like.png);
+        background-size: cover;
+        width: 2em;
+        height: 2em;
+        float: right;
+    }
+#dislikecontainer{
+    position: static;
+    margin-right: 0em;
+    margin-left: auto;
+    background-image: url(recources/dislike.png);
+    background-size: cover;
+    width: 2em;
+    height: 2em;
+}
+#headfooter {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.content {
+    display: table-row-group;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: relative;
+    margin-bottom: 2em;
+  
+    height: 100%;
+    
+}
+
+header {
+    overflow: hidden;
+    border-bottom: 1px rgba(131, 131, 131, 0.74) solid;
+}
+
+.textcontent {
+    
+    font-size: 16pt;
+    line-height: 150%;
+}
+
+.smalltextcontent {
+    
+    font-size: 14pt;
+    line-height: 130%;
+}
+
+
+#maincontent{
+
+    float: left;
+    margin-left: 10.5em;
+    padding: 1em;
+    
+    border-bottom: 1px rgba(131, 131, 131, 0.74) solid;
+    border-right: 1px rgba(131, 131, 131, 0.74) solid; 
+ 
+}
+
+#maps {
+    width: 300px;
+    height: 280px;
+}
+
+
+#sidebar {
+   
+    width: 10em;
+    overflow: visible;
+    position: absolute;
+    left: 5;
+    top: 10;
+    float: left;
+    display: block;
+   padding-right: 1em;
+   padding-top: 1em;
+   margin: 1em;
+   margin-right: 0;
+   margin-top: 0;
+   border-right: 1px rgba(131, 131, 131, 0.74) solid;
+   border-bottom: 1px rgba(131, 131, 131, 0.74) solid;
+}
+
+
+.linkcontainer {
+    border:dotted  black 2pt;
+  
+}
+footer{
+    position:relative;
+
+    bottom:0;
+    font-size: smaller;
+    margin-left: 20em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: rgb(95, 95, 95);
+}
+#test{
+    color: blue;
+    border: solid black 2pt;
+}
